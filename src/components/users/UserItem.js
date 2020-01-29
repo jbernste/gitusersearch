@@ -5,7 +5,7 @@ class UserItem extends Component {
     constructor() {
         super();
         this.state = {
-        id:'id',
+        id:'1',
         login: 'mojombo',
         avatar_url: 'https://avatars0.githubusercontent.com/u/1?v=4',
         html_url: 'https://github.com/mojombo'
@@ -23,7 +23,7 @@ class UserItem extends Component {
                 /><h1>{' '}</h1>
                 <h4>user: {' '}
                 <b> {this.state.login}</b></h4> 
-                <a href={this.state.html_url}><h2 className='btn btn-alert'  >VIEW PROFILE</h2></a>
+                <a href={this.state.html_url} className='btn btn-success my-1'>VIEW PROFILE</a>
             </div>
         </div>
         );
