@@ -11,10 +11,10 @@ class App extends Component {
       
     <div className="App"> 
     <Navbar title='Github User Search Tool' icon='fab fa-github'/>  
-    <h2 className='medium text-alert'>Please Search a Name</h2>
-    <div>
+    
+    <div className='container'><br></br><h2 className='medium text-alert'>Search Github Username </h2>
       <form>
-        <input type="text" className='box text-secondary' size='20' value='search github user'></input>
+        <input type="text" className='box text-secondary' size='20' value='Search . . .'></input>
         <input type='submit' className='submit bg-success btn mg-2 text-center'></input>
       </form>
     </div>
