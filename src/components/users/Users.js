@@ -12,16 +12,34 @@ class Users extends Component {
         },
         {
             id:'2',
-            login: 'mojombo2',
-            avatar_url: 'https://avatars0.githubusercontent.com/u/1?v=4',
-            html_url: 'https://github.com/mojombo'
+            login: 'defunkt',
+            avatar_url: 'https://avatars0.githubusercontent.com/u/2?v=4',
+            html_url: 'https://github.com/defunkt'
         },
         {
             id:'3',
-            login: 'mojombo3',
-            avatar_url: 'https://avatars0.githubusercontent.com/u/1?v=4',
-            html_url: 'https://github.com/mojombo'
-        }   
+            login: 'jbernste',
+            avatar_url: 'https://avatars0.githubusercontent.com/u/52841665?v=460',
+            html_url: 'https://github.com/jbernste'
+        },
+        {
+            id:'4',
+            login: 'pjhyett',
+            avatar_url: 'https://avatars0.githubusercontent.com/u/3?v=4',
+            html_url: 'https://github.com/pjhyett'
+        },
+        {
+            id:'5',
+            login: 'wycats',
+            avatar_url: 'https://avatars0.githubusercontent.com/u/4?v=4',
+            html_url: 'https://github.com/wycats'
+        },
+        {
+            id:'6',
+            login: 'ivey',
+            avatar_url: 'https://avatars0.githubusercontent.com/u/6?v=4',
+            html_url: 'https://github.com/ivey'
+        }     
         ]
     }
 
@@ -50,7 +68,7 @@ class Users extends Component {
 const userStyle ={
     display:'grid',
     gridTemplateColumns: 'repeat(3,1fr)',
-    gridGap: '10px'
+    gridGap: '1rem'
 }
 
 export default Users
